@@ -1,0 +1,10 @@
+ru\tinkoff\edu\java\linkparser\parsers\client\LinkProcessor.class
+ru\tinkoff\edu\java\linkparser\parsers\Parser.class
+ru\tinkoff\edu\java\linkparser\parsers\responses\ErrorResponse.class
+ru\tinkoff\edu\java\linkparser\parsers\responses\GitHubResponse.class
+ru\tinkoff\edu\java\linkparser\parsers\responses\Response.class
+ru\tinkoff\edu\java\linkparser\parsers\StackOverflowParser.class
+ru\tinkoff\edu\java\linkparser\LinkParserApplication.class
+ru\tinkoff\edu\java\linkparser\parsers\GithubParser.class
+ru\tinkoff\edu\java\linkparser\parsers\responses\StackOverflowResponse.class
+ru\tinkoff\edu\java\linkparser\parsers\LinkNames.class
