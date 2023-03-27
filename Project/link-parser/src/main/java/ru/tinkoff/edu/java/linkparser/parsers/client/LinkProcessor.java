@@ -13,7 +13,7 @@ import java.util.Map;
 
 @ToString
 public class LinkProcessor {
-    public static final Map<String, Parser> parsers = Map.of("github.com", new GithubParser(), "stackoverflow.com", new StackOverflowParser());
+    public static final Map<String, Parser> parsers = Map.of(GITHUB, new GithubParser(), STACKOVERFLOW, new StackOverflowParser());
 
     public Response parseLink(URL url) {
         String host = url.getHost();
