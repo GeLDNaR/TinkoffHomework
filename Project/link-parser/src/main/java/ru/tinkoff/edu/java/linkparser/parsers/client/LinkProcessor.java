@@ -11,6 +11,9 @@ import ru.tinkoff.edu.java.linkparser.parsers.responses.Response;
 import java.net.URL;
 import java.util.Map;
 
+import static ru.tinkoff.edu.java.linkparser.parsers.LinkNames.GITHUB;
+import static ru.tinkoff.edu.java.linkparser.parsers.LinkNames.STACKOVERFLOW;
+
 @ToString
 public class LinkProcessor {
     public static final Map<String, Parser> parsers = Map.of(GITHUB, new GithubParser(), STACKOVERFLOW, new StackOverflowParser());
